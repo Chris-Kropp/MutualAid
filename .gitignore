@@ -8,6 +8,7 @@
 *.dll
 *.so
 *.dylib
+*.db
 
 # Test binary, built with `go test -c`
 *.test
@@ -25,3 +26,29 @@ go.work.sum
 # env file
 .env
 
+# Dependency directories
+node_modules/
+
+# IDE related
+.idea
+
+# Test coverage
+coverage
+*.lcov
+
+# Optional eslint cache
+.eslintcache
+
+# dotenv environment variables file
+.env
+.env.test
+
+# build output
+.vercel
+
+# OS-specific
+.DS_Store
+
+tmp
+
+benchmarking/compare/.results
